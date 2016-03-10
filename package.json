@@ -1,0 +1,21 @@
+{
+  "name": "jquery-ui-themes-webpack",
+  "version": "1.0.0",
+  "description": "Webpack bundle with jQuery-UI that lets you choose a jQuery-UI theme without the need to rerun webpack",
+  "main": "index.js",
+  "author": "Alfonso Muñoz-Pomer Fuentes <amunoz@ebi.ac.uk>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "jquery-ui-bundle": "^1.11.4"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.8",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "image-webpack-loader": "^1.6.3",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14"
+  }
+}
