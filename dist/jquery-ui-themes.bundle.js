@@ -17,6 +17,8 @@ webpackJsonpjQueryUIThemes([1],[
 	//*------------------------------------------------------------------
 
 	var $ = __webpack_require__(1);
+
+	// If using CommonsChunkPlugin the following require has no effect: https://github.com/webpack/webpack/issues/2161
 	__webpack_require__(2);
 
 	//*------------------------------------------------------------------*
